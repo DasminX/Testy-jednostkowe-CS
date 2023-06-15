@@ -1,0 +1,46 @@
+PS C:\Users\Dasmin\Desktop\testy> echo "# Testy-jednostkowe-CS" >> README.md
+>> git init
+>> git add README.md
+>> git commit -m "first commit"
+>> git branch -M master
+>> git remote add origin https://github.com/DasminX/Testy-jednostkowe-CS.git
+>> git push -u origin master
+Initialized empty Git repository in C:/Users/Dasmin/Desktop/testy/.git/
+[master (root-commit) 11038dd] first commit
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 README.md
+Enumerating objects: 3, done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 264 bytes | 264.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/DasminX/Testy-jednostkowe-CS.git
+ * [new branch]      master -> master
+branch 'master' set up to track 'origin/master'.
+PS C:\Users\Dasmin\Desktop\testy> git add .
+PS C:\Users\Dasmin\Desktop\testy> git commit -m 'first commit'
+[master 8a0355f] first commit
+ 14 files changed, 6539 insertions(+)
+ create mode 100644 QuadraticEquation.Tests/QuadraticEquation.Tests.csproj
+ create mode 100644 QuadraticEquation.Tests/QuadraticEquation.cs
+ create mode 100644 QuadraticEquation.Tests/obj/QuadraticEquation.json
+ create mode 100644 QuadraticEquation.Tests/obj/QuadraticEquation.props
+ create mode 100644 QuadraticEquation.Tests/obj/QuadraticEquation.targets
+ create mode 100644 QuadraticEquation.Tests/obj/project.assets.json
+ create mode 100644 QuadraticEquation/QuadraticEquation.cs
+ create mode 100644 QuadraticEquation/QuadraticEquation.csproj
+ create mode 100644 QuadraticEquation/obj/QuadraticEquation.csproj.nuget.dgspec.json
+ create mode 100644 QuadraticEquation/obj/QuadraticEquation.csproj.nuget.g.props
+ create mode 100644 QuadraticEquation/obj/QuadraticEquation.csproj.nuget.g.targets
+ create mode 100644 QuadraticEquation/obj/project.assets.json
+ create mode 100644 QuadraticEquation/obj/project.nuget.cache
+PS C:\Users\Dasmin\Desktop\testy> git push
+Enumerating objects: 21, done.
+Counting objects: 100% (21/21), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (20/20), done.
+Writing objects: 100% (20/20), 30.40 KiB | 3.38 MiB/s, done.
+Total 20 (delta 6), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (6/6), done.
+To https://github.com/DasminX/Testy-jednostkowe-CS.git
+   11038dd..8a0355f  master -> master
